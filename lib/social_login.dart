@@ -1,8 +1,8 @@
-library social_login;
+library social_login_all;
 
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:social_login/widgets/button_components.dart';
+import 'package:social_login_all/widgets/button_components.dart';
 import 'enums/buttons.dart';
 
 class SocialLoginButton extends StatelessWidget {
