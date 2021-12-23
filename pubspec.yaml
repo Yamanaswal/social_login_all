@@ -1,7 +1,7 @@
 name: social_login
 description: A Social Login - Facebook, Google and Twitter
 version: 1.0.0+1
-homepage:
+homepage: https://github.com/Yamanaswal/social_login_all
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
