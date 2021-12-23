@@ -1,6 +1,6 @@
 name: social_login
 description: A Social Login - Facebook, Google and Twitter
-version: 1.0.0+1
+version: 1.0.0+2
 homepage: https://github.com/Yamanaswal/social_login_all
 
 environment:
