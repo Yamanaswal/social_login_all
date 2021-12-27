@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:social_login_all/enums/buttons.dart';
+import 'package:social_login_all/google_sign_in/google_sign_in.dart';
 import 'package:social_login_all/social_login.dart';
 
 void main() {
@@ -39,32 +40,35 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             SocialLoginButton(Buttons.Google,
-                onPressed: () {},
+                onPressed: () async {
+                   Map<String,dynamic>? data = await GoogleLogin().init();
+                   //send in Api
+                },
                 text: "Google Login",
                 shape: const RoundedRectangleBorder()),
             SocialLoginButton(Buttons.Microsoft,
                 onPressed: () {},
-                text: "Google Login",
+                text: "Microsoft Login",
                 shape: const RoundedRectangleBorder()),
             SocialLoginButton(Buttons.Apple,
                 onPressed: () {},
-                text: "Google Login",
+                text: "Apple Login",
                 shape: const RoundedRectangleBorder()),
             SocialLoginButton(Buttons.Facebook,
                 onPressed: () {},
-                text: "Google Login",
+                text: "Facebook Login",
                 shape: const RoundedRectangleBorder()),
             SocialLoginButton(Buttons.GitHub,
                 onPressed: () {},
-                text: "Google Login",
+                text: "GitHub Login",
                 shape: const RoundedRectangleBorder()),
             SocialLoginButton(Buttons.LinkedIn,
                 onPressed: () {},
-                text: "Google Login",
+                text: "LinkedIn Login",
                 shape: const RoundedRectangleBorder()),
             SocialLoginButton(Buttons.Twitter,
                 onPressed: () {},
-                text: "Google Login",
+                text: "Twitter Login",
                 shape: const RoundedRectangleBorder()),
           ],
         ),

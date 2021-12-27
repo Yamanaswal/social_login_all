@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:social_login_all/widgets/button_components.dart';
 import 'enums/buttons.dart';
+import 'google_sign_in/google_sign_in.dart';
 
 class SocialLoginButton extends StatelessWidget {
   final Function() onPressed;

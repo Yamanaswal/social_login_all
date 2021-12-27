@@ -1,0 +1,91 @@
+{
+  "project_info": {
+    "project_number": "168114331685",
+    "firebase_url": "https://flutterwithfirebase-224e0-default-rtdb.firebaseio.com",
+    "project_id": "flutterwithfirebase-224e0",
+    "storage_bucket": "flutterwithfirebase-224e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168114331685:android:48293ee4935764e091dfcc",
+        "android_client_info": {
+          "package_name": "com.example.example"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "168114331685-tgfh52164f1c4l6r7ngatsnrv4h2lt2e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIe6q_bog49ixLBcCBhVrGPAPcVYOYzvM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "168114331685-tgfh52164f1c4l6r7ngatsnrv4h2lt2e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "168114331685-6erng13lo2u41mf5e4qp3bits9d9blnp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.yaman.youtubeApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168114331685:android:00b7b9428c7a742691dfcc",
+        "android_client_info": {
+          "package_name": "com.ripenapps.flutterwithfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "168114331685-aq38thd9ancrrjjglhe99o25ab6kfgfq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ripenapps.flutterwithfirebase",
+            "certificate_hash": "4072e007883791da9ce004c990cddf4a94129648"
+          }
+        },
+        {
+          "client_id": "168114331685-tgfh52164f1c4l6r7ngatsnrv4h2lt2e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIe6q_bog49ixLBcCBhVrGPAPcVYOYzvM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "168114331685-tgfh52164f1c4l6r7ngatsnrv4h2lt2e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "168114331685-6erng13lo2u41mf5e4qp3bits9d9blnp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.yaman.youtubeApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
